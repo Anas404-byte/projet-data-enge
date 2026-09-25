@@ -1,0 +1,81 @@
+airport_id,iata_code,airport_name,city,country
+A001,CLT,Charlotte Douglas International Airport,Charlotte,United States
+A002,BOM,Chhatrapati Shivaji Maharaj International Airport,Mumbai,India
+A003,LOS,Murtala Muhammed International Airport,Lagos,Nigeria
+A004,CPH,Copenhagen Airport,Copenhagen,Denmark
+A005,HEL,Helsinki Airport,Helsinki,Finland
+A006,BLR,Kempegowda International Airport,Bangalore,India
+A007,EDI,Edinburgh Airport,Edinburgh,United Kingdom
+A008,FCO,Leonardo da Vinci-Fiumicino Airport,Rome,Italy
+A009,MNL,Ninoy Aquino International Airport,Manila,Philippines
+A010,AMS,Amsterdam Airport Schiphol,Amsterdam,Netherlands
+A011,WAW,Warsaw Chopin Airport,Warsaw,Poland
+A012,ORY,Paris-Orly Airport,Paris,France
+A013,OSL,Oslo Airport,Oslo,Norway
+A014,GRU,Sao Paulo-Guarulhos International Airport,Sao Paulo,Brazil
+A015,SYD,Sydney Kingsford Smith Airport,Sydney,Australia
+A016,BUD,Budapest Ferenc Liszt International Airport,Budapest,Hungary
+A017,CGK,Soekarno-Hatta International Airport,Jakarta,Indonesia
+A018,CDG,Charles de Gaulle Airport,Paris,France
+A019,SIN,Singapore Changi Airport,Singapore,Singapore
+A020,KIX,Kansai International Airport,Osaka,Japan
+A021,BOG,El Dorado International Airport,Bogota,Colombia
+A022,LAS,Harry Reid International Airport,Las Vegas,United States
+A023,BCN,Barcelona-El Prat Airport,Barcelona,Spain
+A024,HAN,Noi Bai International Airport,Hanoi,Vietnam
+A025,BKK,Suvarnabhumi Airport,Bangkok,Thailand
+A026,ARN,Stockholm Arlanda Airport,Stockholm,Sweden
+A027,DOH,Hamad International Airport,Doha,Qatar
+A028,GVA,Geneva Airport,Geneva,Switzerland
+A029,VIE,Vienna International Airport,Vienna,Austria
+A030,IST,Istanbul Airport,Istanbul,Turkey
+A031,LAX,Los Angeles International Airport,Los Angeles,United States
+A032,PEK,Beijing Capital International Airport,Beijing,China
+A033,MSP,Minneapolis-Saint Paul International Airport,Minneapolis,United States
+A034,LHR,Heathrow Airport,London,United Kingdom
+A035,YUL,Montreal-Trudeau International Airport,Montreal,Canada
+A036,LIS,Humberto Delgado Airport,Lisbon,Portugal
+A037,ATH,Athens International Airport,Athens,Greece
+A038,SEA,Seattle-Tacoma International Airport,Seattle,United States
+A039,MXP,Milan Malpensa Airport,Milan,Italy
+A040,HND,Haneda Airport,Tokyo,Japan
+A041,ORD,O'Hare International Airport,Chicago,United States
+A042,YYZ,Toronto Pearson International Airport,Toronto,Canada
+A043,BRU,Brussels Airport,Brussels,Belgium
+A044,JNB,OR Tambo International Airport,Johannesburg,South Africa
+A045,LYS,Lyon-Saint Exupery Airport,Lyon,France
+A046,DXB,Dubai International Airport,Dubai,United Arab Emirates
+A047,LGW,Gatwick Airport,London,United Kingdom
+A048,DEN,Denver International Airport,Denver,United States
+A049,SFO,San Francisco International Airport,San Francisco,United States
+A050,HKG,Hong Kong International Airport,Hong Kong,Hong Kong
+A051,DEL,Indira Gandhi International Airport,Delhi,India
+A052,MEL,Melbourne Airport,Melbourne,Australia
+A053,MIA,Miami International Airport,Miami,United States
+A054,BNE,Brisbane Airport,Brisbane,Australia
+A055,NCE,Nice Cote d'Azur Airport,Nice,France
+A056,NRT,Narita International Airport,Tokyo,Japan
+A057,PRG,Vaclav Havel Airport Prague,Prague,Czech Republic
+A058,IAH,George Bush Intercontinental Airport,Houston,United States
+A059,MAA,Chennai International Airport,Chennai,India
+A060,DUB,Dublin Airport,Dublin,Ireland
+A061,JFK,John F. Kennedy International Airport,New York,United States
+A062,CAI,Cairo International Airport,Cairo,Egypt
+A063,AUH,Zayed International Airport,Abu Dhabi,United Arab Emirates
+A064,GIG,Rio de Janeiro-Galeao International Airport,Rio de Janeiro,Brazil
+A065,NBO,Jomo Kenyatta International Airport,Nairobi,Kenya
+A066,MEX,Mexico City International Airport,Mexico City,Mexico
+A067,JED,King Abdulaziz International Airport,Jeddah,Saudi Arabia
+A068,MAN,Manchester Airport,Manchester,United Kingdom
+A069,ICN,Incheon International Airport,Seoul,South Korea
+A070,KUL,Kuala Lumpur International Airport,Kuala Lumpur,Malaysia
+A071,BER,Berlin Brandenburg Airport,Berlin,Germany
+A072,FRA,Frankfurt Airport,Frankfurt,Germany
+A073,TPE,Taiwan Taoyuan International Airport,Taipei,Taiwan
+A074,EZE,Ministro Pistarini International Airport,Buenos Aires,Argentina
+A075,DFW,Dallas/Fort Worth International Airport,Dallas,United States
+A076,TLV,Ben Gurion Airport,Tel Aviv,Israel
+A077,PVG,Shanghai Pudong International Airport,Shanghai,China
+A078,PHX,Phoenix Sky Harbor International Airport,Phoenix,United States
+A079,SGN,Tan Son Nhat International Airport,Ho Chi Minh City,Vietnam
+A080,BOS,Logan International Airport,Boston,United States
