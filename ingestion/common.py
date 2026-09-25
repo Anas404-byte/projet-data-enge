@@ -3,6 +3,7 @@ Utilitaires partagés par les scripts d'ingestion. `get_connection` est fourni t
 `fetch_csv` est à vous d'implémenter (cf. TODO)
 """
 import os
+import urllib.request
 
 import duckdb
 import pandas as pd
@@ -14,12 +15,16 @@ RAW_BASE = "https://raw.githubusercontent.com/kevinl75/tp-polytech-dataset/main"
 
 
 def fetch_csv(subdir: str, filename: str) -> pd.DataFrame:
-    """Doit renvoyer le contenu de <subdir>/<filename> sous forme de DataFrame pandas."""
-    # TODO : le fichier CSV source est disponible à l'URL f"{RAW_BASE}/{subdir}/{filename}".
-    # - S'il n'existe pas déjà en local dans BRONZE_DIR/<subdir>/<filename>, téléchargez-le et
-    #   écrivez-le tel quel sur disque à cet emplacement (créez les dossiers nécessaires).
-    # - Eviter si possible de le retéléchargez s'il est déjà présent.
-    raise NotImplementedError
+    """Renvoie le contenu de <subdir>/<filename> sous forme de DataFrame pandas."""
+    local_path = os.path.join(BRONZE_DIR, subdir, filename)
+
+    if not os.path.exists(local_path):
+        os.makedirs(os.path.dirname(local_path), exist_ok=True)
+        url = f"{RAW_BASE}/{subdir}/{filename}"
+        with urllib.request.urlopen(url) as response, open(local_path, "wb") as f:
+            f.write(response.read())
+
+    return pd.read_csv(local_path)
 
 
 def get_connection() -> duckdb.DuckDBPyConnection:
